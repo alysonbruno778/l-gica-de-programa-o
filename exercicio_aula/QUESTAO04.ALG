@@ -15,7 +15,7 @@ ac <- 0
 enquanto ( cont <= 100 ) faca
          ac <- cont + ac
          cont <- cont + 1
-         escreval(ac)
-fimenquanto
 
+fimenquanto
+        escreval("A soma dos números de 1 a 100 é ", ac)
 Fimalgoritmo
