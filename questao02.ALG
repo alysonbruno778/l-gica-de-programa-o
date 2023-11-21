@@ -1,28 +1,21 @@
-Algoritmo "semnome"
-// Disciplina  :  [Linguagem e Lógica de Programação] 
-// Professor   : Antonio Carlos Nicolodi 
+Algoritmo "questao02"
+// 
+//  
 // Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 30/10/2023
+// Data atual  : 14/11/2023
 Var
-// Seção de Declarações das variáveis
-horas, minutos, minutosPassados: inteiro
+// Seção de Declarações das variáveis 
+n, cont, acum: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-// Solicita as horas atuais ao usuário
-   escreva("Informe as horas atuais: ")
-   leia(horas)
-
-   // Solicita os minutos atuais ao usuário
-   escreva("Informe os minutos atuais: ")
-   leia(minutos)
-
-   // Calcula quantos minutos se passaram desde 00:00h
-   minutosPassados <- (horas * 60) + minutos
-
-   // Exibe o resultado
-   escreva("Já se passaram ", minutosPassados, " minutos desde 00:00h deste dia.")
-
-
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  escreval ("Informe o valor final da sequencia a ser feita: ")
+  leia (n)
+  
+       para cont de 1 ate n passo 1 faca
+           acum <- acum + cont
+       fimpara
+       
+       escreval ("A soma dos valores de 1 até ", n, " = ", acum)
 Fimalgoritmo

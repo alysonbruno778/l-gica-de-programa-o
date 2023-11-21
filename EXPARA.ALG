@@ -1,4 +1,4 @@
-Algoritmo "questao03"
+Algoritmo "exPara"
 // 
 //  
 // Descrição   : Aqui você descreve o que o programa faz! (função)
@@ -6,19 +6,14 @@ Algoritmo "questao03"
 // Data atual  : 14/11/2023
 Var
 // Seção de Declarações das variáveis 
-cont, ac, num: inteiro
+cont: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-ac <- 1
-escreval ("Digite um número qualquer para que seja calculado o fatorial: ")
-leia (num)
-
-
-para  cont de 1 ate num passo 1 faca
-     ac<- ac * cont
+para cont de 1000 ate 1500 passo 1 faca
+  se ( cont mod 2 = 1 ) entao
+      escreval ( cont )
+  fimse
 fimpara
-
-escreval (num, " fatrorial = ",ac)
 
 Fimalgoritmo
