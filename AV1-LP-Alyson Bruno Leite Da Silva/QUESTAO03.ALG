@@ -1,4 +1,4 @@
-Algoritmo "questao03"
+Algoritmo "QUESTAO03"
 // 
 //  
 // Descrição   : Aqui você descreve o que o programa faz! (função)
